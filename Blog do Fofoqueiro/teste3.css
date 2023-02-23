@@ -1,0 +1,77 @@
+
+body {
+    background-color: black;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    height: 55%;  
+}
+
+.tittle {
+    display: flex;
+    margin-left: 10%;
+    font-size: xx-large;
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    color: aqua;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+
+    img{
+        width: 25%;
+        height: auto;
+    }
+
+.imagem {
+    width: 25%;
+    height: auto;
+    margin-left: 35%;
+}
+
+.descrição {
+    display: flex;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: xx-large;
+    margin: 15px 0;
+}
+
+.alexandra {
+    display: flex;
+    color: white;
+    font-size: x-large;
+}
+
+.charlize {
+    display: flex;
+    color: white;
+    font-size: x-large;
+}
+
+.emma {
+    display: flex;
+    color: white;
+    font-size: x-large;
+}
